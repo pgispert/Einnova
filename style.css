@@ -41,13 +41,21 @@
     text-align: center;
 }
 
-.subcategories {
-    margin: 1rem;
+.banner_categories {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
-ul {
-    margin: 0;
-    clear: both;
+.category {
+    width: 125px;
+    height: 175px;
+    display: inline;
+    justify-content: center;
+    margin: 15px;
 }
 
 @media screen and ( max-width : 900px ) {
@@ -56,3 +64,4 @@ ul {
     .linea {
         flex-direction: column;
     }
+}
